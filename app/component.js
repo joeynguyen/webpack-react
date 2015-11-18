@@ -1,9 +1,9 @@
-'use strict';
+var React = require('react');
 
-module.exports = function() {
-    var element = document.createElement('h1');
-
-    element.innerHTML = 'Hello Anh!';
-
-    return element;
-};
+module.exports = React.createClass({
+    render: function() {
+        return (
+            <h1>Hello world!</h1>
+        )
+    }
+});
