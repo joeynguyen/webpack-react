@@ -1,4 +1,4 @@
-var React = require('react');
-var AppComponent = require('./component.js');
+const React = require('react');
+const AppComponent = require('./component.js');
 
-React.render(<AppComponent />, document.body);
+React.render(<AppComponent />, document.getElementById('root'));

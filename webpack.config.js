@@ -16,7 +16,7 @@ module.exports = {
     module: {
         loaders: [{
             test: /\.js?$/,
-            exclude: /node_modules/,
+            exclude: /(node_modules|build)/,
             loader: 'babel',
             query: {
                 // speed up babel-loader by caching
